@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewDataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextGasStation"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="105dp"
+                android:hint="@string/gasStationName" />
+
+            <ImageButton
+                android:id="@+id/gasStationsOptionsMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_40"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:hint="@string/numberOfLitres"
+        />
+
+        <EditText
+            android:id="@+id/editTextTachometer"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:inputType="numberSigned"
+            android:layout_gravity="center"
+            android:hint="@string/stateOfTachometr"
+            />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/date"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/submitAdding"
+                android:layout_width="154dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/cancelAdding"
+                android:layout_width="154dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="@string/cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

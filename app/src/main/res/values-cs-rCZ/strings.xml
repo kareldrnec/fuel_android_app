@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Quality</string>
+    <string name="information">Informace</string>
+    <string name="settings">Nastavení</string>
+    <string name="log_out">Odhlásit se</string>
+    <string name="version">Verze</string>
+    <string name="switch_color_mode">Denní/Noční mód</string>
+    <string name="about_app">O Aplikaci</string>
+    <string name="profile">"Profil "</string>
+    <string name="usernameInput">Uživatelské jméno</string>
+    <string name="passwordInput">Heslo</string>
+    <string name="loginText">Přihlásit</string>
+    <string name="registerText">Registrovat</string>
+    <string name="createAccount">Nemáte účet? Pro založení klikněte zde.</string>
+    <string name="registration">Registrace</string>
+    <string name="login">Přihlášení</string>
+    <string name="username">Uživatelské jméno</string>
+    <string name="cancel">Zrušit</string>
+    <string name="add">Přidat</string>
+    <string name="gasStationName">Název čerpací stanice</string>
+    <string name="numberOfLitres">Počet litrů</string>
+    <string name="stateOfTachometr">Stav tachometru</string>
+    <string name="date">Vyber datum</string>
+    <string name="searchGasStations">Najít čerpací stanice</string>
+    <string name="delete">Odstranit</string>
+    <string name="alertDeleteQuestion">Chcete smazat vybranou položku?</string>
+    <string name="yesButton">Ano</string>
+    <string name="noButton">Ne</string>
+    <string name="emptyList">Seznam položek je prázdný!</string>
+    <string name="chooseItem">Nevybral jste položku!</string>
+    <string name="averageFuelConsumptionText">Vaše průměrná spotřeba paliva je:</string>
+    <string name="notEnoughInputData">Nedostatek vstupních dat.</string>
+    <string name="mostVisitedGasStation">Nejnavštěvovanější čerpací stanice:</string>
+    <string name="lastFive">Posledních 5</string>
+    <string name="lastTen">Posledních 10</string>
+    <string name="show">Zobrazit</string>
+    <string name="showLast">Zobrazit průměrnou sportřebu za poslední tankování</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+   <item
+       android:id="@+id/overflowMenu"
+       android:icon="@drawable/ic_baseline_more_vert_24"
+       android:title=""
+       app:showAsAction="always">
+
+       <menu>
+           <item
+               android:id="@+id/searchGasStationsOption"
+               android:title="@string/searchGasStations"
+               android:icon="@drawable/ic_baseline_search_24"
+               app:showAsAction="never"/>
+           <item
+               android:id="@+id/profile"
+               android:title="@string/profile"
+               android:icon="@drawable/ic_baseline_account_circle_24"
+               app:showAsAction="never"/>
+           <item
+               android:id="@+id/action_settings"
+               android:title="@string/settings"
+               android:icon="@drawable/ic_baseline_settings_24"
+               app:showAsAction="never"
+               />
+           <item
+               android:id="@+id/action_information"
+               android:title="@string/information"
+               android:icon="@drawable/ic_baseline_info_24"
+               app:showAsAction="never"/>
+           <item
+               android:id="@+id/action_log_out"
+               android:icon="@drawable/ic_baseline_power_settings_new_24"
+               android:title="@string/log_out"
+               app:showAsAction="never"
+               />
+       </menu>
+   </item>
+</menu>

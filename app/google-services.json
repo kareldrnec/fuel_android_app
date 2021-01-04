@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "789220038270",
+    "firebase_url": "https://fuelqualitytul.firebaseio.com",
+    "project_id": "fuelqualitytul",
+    "storage_bucket": "fuelqualitytul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789220038270:android:f5e24b9833fe2b3773ea2f",
+        "android_client_info": {
+          "package_name": "com.example.fuelqualityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789220038270-hv8dvbjm7s27kjkr0vf2cups6k1e2tj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtM_GVDllmwBQZcGDD4VmWbM1ryMmBN-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789220038270-hv8dvbjm7s27kjkr0vf2cups6k1e2tj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

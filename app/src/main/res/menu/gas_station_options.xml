@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/shell"
+        android:title="@string/shellString"
+        />
+    <item android:id="@+id/omv"
+        android:title="@string/omvString"
+        />
+    <item android:id="@+id/benzina"
+        android:title="@string/benzinaString"
+        />
+    <item android:id="@+id/mol"
+        android:title="@string/molString"
+
+        />
+    <item android:id="@+id/ono"
+        android:title="@string/onoString"
+        />
+</menu>
